@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "PlatformingGame",
   "resources": [
+    {"id":{"name":"spPlayerIdle","path":"sprites/spPlayerIdle/spPlayerIdle.yy",},"order":18,},
     {"id":{"name":"spBricksB","path":"sprites/spBricksB/spBricksB.yy",},"order":11,},
     {"id":{"name":"spMenu1","path":"sprites/spMenu1/spMenu1.yy",},"order":9,},
     {"id":{"name":"spWall","path":"sprites/spWall/spWall.yy",},"order":1,},
