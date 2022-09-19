@@ -1,39 +1,39 @@
-/// @description 
+///@description Player Controls
 
 //Player controls
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space);
+player_left = keyboard_check(ord("A"));
+player_right = keyboard_check(ord("D"));
+player_jump = keyboard_check(vk_space);
 
 
-//Calculate movement
-var move = key_right - key_left
-hsp = move * movesp;
-vsp = vsp + grv;
+//Movment
+var move = player_right - player_left
+hmove = move * playersp;
+vmove = vmove + grav;
 
-//Calculate jumping
-if (place_meeting(x,y+1,objWall)) && (key_jump) {
-	vsp -= 8;
+//Jumping
+if (place_meeting(x,y+1,objWall)) && (player_jump) {
+	vmove -= 8;
 }
 
-if ((vsp < 0) && (!key_jump)) { //If the player is moving up but not holding jump, the jump will be shorter
-	vsp = max(vsp,-1);
+if ((vmove < 0) && (!player_jump)) { //If the player is moving up but not holding jump, the jump will be shorter
+	vmove = max(vmove,-1);
 }
 
 //Horizontal collison
-if (place_meeting(x+hsp,y,objWall)) {
-	while (!place_meeting(x+sign(hsp),y,objWall)) {
-		x = x + sign(hsp);
+if (place_meeting(x+hmove,y,objWall)) {
+	while (!place_meeting(x+sign(hmove),y,objWall)) {
+		x = x + sign(hmove);
 	}
-	hsp = 0;
+	hmove = 0;
 }
-x = x + hsp;
+x = x + hmove;
 
 //Vertical collison
-if (place_meeting(x,y+vsp,objWall)) {
-	while (!place_meeting(x,y+sign(vsp),objWall)) {
-		y = y + sign(vsp);
+if (place_meeting(x,y+vmove,objWall)) {
+	while (!place_meeting(x,y+sign(vmove),objWall)) {
+		y = y + sign(vmove);
 	}
-	vsp = 0;
+	vmove = 0;
 }
-y = y + vsp;
+y = y + vmove;
