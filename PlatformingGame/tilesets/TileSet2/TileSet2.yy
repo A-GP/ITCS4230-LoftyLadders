@@ -1,14 +1,14 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "TileSet2",
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "spriteId": {
-    "name": "spBricks",
-    "path": "sprites/spBricks/spBricks.yy",
+    "name": "spBricksB",
+    "path": "sprites/spBricksB/spBricksB.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -19,8 +19,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "spriteNoExport": true,
-  "out_columns": 2,
-  "tile_count": 3,
+  "out_columns": 1,
+  "tile_count": 2,
   "autoTileSets": [],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -28,7 +28,6 @@
     "FrameData": [
       0,
       1,
-      2,
     ],
     "SerialiseFrameCount": 1,
   },

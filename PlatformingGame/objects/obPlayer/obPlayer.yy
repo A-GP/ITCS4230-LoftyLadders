@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obPlayer",
   "spriteId": {
-    "name": "spPlayer",
-    "path": "sprites/spPlayer/spPlayer.yy",
+    "name": "spPlayerIdle",
+    "path": "sprites/spPlayerIdle/spPlayerIdle.yy",
   },
   "solid": false,
   "visible": true,
