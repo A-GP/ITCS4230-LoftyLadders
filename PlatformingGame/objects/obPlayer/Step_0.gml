@@ -44,7 +44,13 @@ image_speed = 1;
 if !(place_meeting(x,y+1,obWall)) {
 	sprite_index = spPlayerJump;
 	image_speed = 0;
-	image_index = (vmove > 1);
+	
+	if (vmove < 0 && vmove >= -2) image_index = 1;	
+	 else if (vmove < -2 && vmove >= -4) image_index = 1;
+	 else if (vmove < -4 && vmove >= -6) image_index = 2;
+	 else if (vmove <= -7) image_index = 2;
+	 else image_index = 3;
+	
 } else if (place_meeting(x,y+1,obWall)) {
 	sprite_index = spPlayerIdle;
 }
