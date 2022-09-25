@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obWall",
-  "spriteId": {
-    "name": "spWall",
-    "path": "sprites/spWall/spWall.yy",
-  },
+  "name": "obMenuCamera",
+  "spriteId": null,
   "solid": false,
   "visible": false,
   "managed": true,
@@ -24,7 +21,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
