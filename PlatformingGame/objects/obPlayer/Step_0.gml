@@ -1,4 +1,4 @@
-/// Player Controls
+/// Player Control
 
 //Player controls
 player_left = keyboard_check(ord("A"));
@@ -41,16 +41,36 @@ y = y + vmove;
 /// Sprite Control
 image_speed = 1;
 
+//Jumping
 if !(place_meeting(x,y+1,obWall)) {
-	sprite_index = spPlayerJump;
+	
+	//Changes jumping sprite if the player is moving left or right
+	var facing = spPlayerJumpR;
+	
+	if (sign(hmove) = 1) {
+		sprite_index = spPlayerJumpR;
+		facing = spPlayerJumpR;
+		lastDirection = facing;
+	} else if (sign(hmove) = -1) {
+			sprite_index = spPlayerJumpL;
+			facing = spPlayerJumpL;
+			lastDirection = facing;
+		} else if (sign(hmove) = 0) sprite_index = lastDirection;
+
 	image_speed = 0;
 	
-	if (vmove < 0 && vmove >= -2) image_index = 1;	
-	 else if (vmove < -2 && vmove >= -4) image_index = 1;
-	 else if (vmove < -4 && vmove >= -6) image_index = 2;
-	 else if (vmove <= -7) image_index = 2;
-	 else image_index = 3;
+
+
+//Changes player jumping sprite as they go up and down
+	if (vmove >= -2 && image_index != 2) image_index = 0;
 	
+	if (vmove < -2 && vmove >= -4 && image_index = 0) image_index = 1;
+	
+	if (vmove < -4) image_index = 2;
+	
+	if (vmove >= 0) image_index = 3;
+	
+
 } else if (place_meeting(x,y+1,obWall)) {
-	sprite_index = spPlayerIdle;
+	sprite_index = spPlayerIdle; //Should only happen at the start of the game
 }

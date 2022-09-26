@@ -9,11 +9,12 @@
     {"id":{"name":"spWall","path":"sprites/spWall/spWall.yy",},"order":1,},
     {"id":{"name":"obWall","path":"objects/obWall/obWall.yy",},"order":1,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
+    {"id":{"name":"spPlayerJumpL","path":"sprites/spPlayerJumpL/spPlayerJumpL.yy",},"order":4,},
     {"id":{"name":"spSpikes","path":"sprites/spSpikes/spSpikes.yy",},"order":25,},
     {"id":{"name":"spBorderA","path":"sprites/spBorderA/spBorderA.yy",},"order":8,},
     {"id":{"name":"spPlayerWallJump","path":"sprites/spPlayerWallJump/spPlayerWallJump.yy",},"order":3,},
     {"id":{"name":"spBricksB","path":"sprites/spBricksB/spBricksB.yy",},"order":1,},
-    {"id":{"name":"spPlayerJump","path":"sprites/spPlayerJump/spPlayerJump.yy",},"order":2,},
+    {"id":{"name":"spPlayerJumpR","path":"sprites/spPlayerJumpR/spPlayerJumpR.yy",},"order":2,},
     {"id":{"name":"obLadder1","path":"objects/obLadder1/obLadder1.yy",},"order":4,},
     {"id":{"name":"obMenuCamera","path":"objects/obMenuCamera/obMenuCamera.yy",},"order":2,},
     {"id":{"name":"obPlayer","path":"objects/obPlayer/obPlayer.yy",},"order":0,},
@@ -51,8 +52,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"roomId":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
