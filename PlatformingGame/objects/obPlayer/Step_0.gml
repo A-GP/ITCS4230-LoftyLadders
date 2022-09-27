@@ -11,6 +11,10 @@ var move = player_right - player_left
 hmove = move * playersp;
 vmove = vmove + grav;
 
+if (y < minHeight) {
+minHeight = y;	
+}
+
 //Jumping
 if (place_meeting(x,y+1,obWall)) && (player_jump) {
 	vmove -= 7;

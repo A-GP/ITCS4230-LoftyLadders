@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obWall",
+  "name": "obFallTrigger",
   "spriteId": {
-    "name": "spWall",
-    "path": "sprites/spWall/spWall.yy",
+    "name": "spTrigger",
+    "path": "sprites/spTrigger/spTrigger.yy",
   },
   "solid": false,
   "visible": true,
