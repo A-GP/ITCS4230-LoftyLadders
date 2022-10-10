@@ -1,1 +1,1 @@
-//y = clamp((y + obPlayer.vmove),-infinity,room_height);
+if (instance_exists(obPlayer)) y = obPlayer.y - 64;

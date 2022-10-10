@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obWall2",
+  "name": "obPlayerFalling",
   "spriteId": {
-    "name": "spWall",
-    "path": "sprites/spWall/spWall.yy",
+    "name": "spPlayerFallingScreen",
+    "path": "sprites/spPlayerFallingScreen/spPlayerFallingScreen.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
