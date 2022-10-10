@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obLadder1",
+  "name": "obLadder",
   "spriteId": {
     "name": "spLadder1",
     "path": "sprites/spLadder1/spLadder1.yy",

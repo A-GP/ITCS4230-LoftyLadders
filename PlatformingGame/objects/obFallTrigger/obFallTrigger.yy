@@ -7,7 +7,7 @@
     "path": "sprites/spTrigger/spTrigger.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -1,7 +1,10 @@
 ///@description Player variables
-playersp = 3.5;
+playersp = 4;
 vmove = 0;
 hmove = 0;
 grav = 0.3;
+jumpHeight = 7;
 lastDirection = 0;
+spclimb = 4;
+atLadder = instance_place(x,y,obLadder);
 minHeight = y;

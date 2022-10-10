@@ -1,1 +1,1 @@
-y = clamp((y + obPlayer.vmove),-infinity,room_height);
+//y = clamp((y + obPlayer.vmove),-infinity,room_height);
