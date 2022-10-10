@@ -6,3 +6,4 @@ grav = 0.3;
 jumpHeight = 5;
 lastDirection = 0;
 climbsp = 1.5;
+score = 0;

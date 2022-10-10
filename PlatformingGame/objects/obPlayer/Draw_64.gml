@@ -1,1 +1,1 @@
-draw_text(64,64,vmove)
+draw_text(64,64,score)
