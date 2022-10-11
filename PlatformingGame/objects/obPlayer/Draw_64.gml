@@ -1,1 +1,2 @@
-draw_text(64,64,score)
+draw_set_font(ftDefault);
+draw_text(256,64,score)

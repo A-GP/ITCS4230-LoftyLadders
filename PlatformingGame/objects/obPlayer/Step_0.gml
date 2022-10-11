@@ -8,40 +8,40 @@ player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
 
-if (place_meeting(x,y,obLadder)) {
+if (instance_place(x,y-30,obLadder)) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {
 		climbing = true;
 		sprite_index = spPlayerClimbing;
 	} 
 } else {
 		climbing = false;
-		sprite_index = spPlayerIdle;
+		sprite_index = spPlayerClimbing;
 		}
 
 if (climbing) {
-	image_speed = 0;
+	image_speed = 1;
+	sprite_index = spPlayerClimbingIdle;
 	grav = 0;
 	vmove = 0;
 
 	//Jumping
-	if (player_jump and canJump) {
+	if (player_jump) {
 		climbing = false;
 		vmove -= jumpHeight;
-
 	}
 
 	
 	if (player_up) {
-		if (instance_place(x,y-1,obLadder)) {
+		if (instance_place(x,y-32,obLadder)) {
 			y += -climbsp;
-			image_speed = 1;
+			sprite_index = spPlayerClimbing;
 		}
 	}
 
 	if (player_down) {
-		if (instance_place(x,y+1,obLadder)) {
+		if (instance_place(x,y+32,obLadder)) {
 			y += climbsp;
-			image_speed = 1;
+			sprite_index = spPlayerClimbing;
 		}
 	}
 	
@@ -49,8 +49,8 @@ if (climbing) {
 
 	//Movment
 	grav = 0.3;
-	var move = player_right - player_left
-	hmove = move * playersp;
+	var moveDirection = player_right - player_left
+	hmove = moveDirection * playersp;
 	vmove = max(vmove+grav,-10);
 	
 	//Horizontal collison

@@ -25,8 +25,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18300d1c-a107-489e-9779-898d5d7a9ea1",},
   ],
