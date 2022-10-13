@@ -8,7 +8,7 @@ player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
 
-if (instance_place(x,y-30,obLadder)) {
+if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {
 		climbing = true;
 		sprite_index = spPlayerClimbing;
@@ -32,7 +32,7 @@ if (climbing) {
 
 	
 	if (player_up) {
-		if (instance_place(x,y-32,obLadder)) {
+		if (instance_place(x,y-32,obLadder) and instance_place(x,y,obLadder)) {
 			y += -climbsp;
 			sprite_index = spPlayerClimbing;
 		}
