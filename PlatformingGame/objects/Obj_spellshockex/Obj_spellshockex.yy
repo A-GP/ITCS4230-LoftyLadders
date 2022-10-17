@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_spellslowex",
+  "name": "Obj_spellshockex",
   "spriteId": {
-    "name": "spExplosion2",
-    "path": "sprites/spExplosion2/spExplosion2.yy",
+    "name": "spExplosion3",
+    "path": "sprites/spExplosion3/spExplosion3.yy",
   },
   "solid": false,
   "visible": true,

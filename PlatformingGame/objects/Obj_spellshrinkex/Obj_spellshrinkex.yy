@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_spellslowex",
+  "name": "Obj_spellshrinkex",
   "spriteId": {
-    "name": "spExplosion2",
-    "path": "sprites/spExplosion2/spExplosion2.yy",
+    "name": "spExplosion",
+    "path": "sprites/spExplosion/spExplosion.yy",
   },
   "solid": false,
   "visible": true,

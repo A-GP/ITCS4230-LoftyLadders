@@ -1,5 +1,5 @@
 if (instance_exists(obPlayer)){
-	path_start(Path_ghost1, 1, path_action_stop, false)
+	path_start(Path_forward, 1, path_action_stop, false)
 	
 	alarm[1] = room_speed * castTimer
 	//alarm[0] = room_speed * castTimer

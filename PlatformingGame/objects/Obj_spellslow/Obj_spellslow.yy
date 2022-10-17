@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_spellslow",
   "spriteId": {
-    "name": "spWizardSpell3",
-    "path": "sprites/spWizardSpell3/spWizardSpell3.yy",
+    "name": "spWizardSpell2",
+    "path": "sprites/spWizardSpell2/spWizardSpell2.yy",
   },
   "solid": false,
   "visible": true,

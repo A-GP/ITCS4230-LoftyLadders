@@ -14,8 +14,20 @@ if (plslow = true){
 }
 else{
 	climbsp = spslow
-	//alarm[0] = room_speed*2
 }
+
+//shrinking spell
+if (plsize = true){ 
+	image_xscale = basex
+	image_yscale = basey
+	alarm[1] = room_speed*2
+}
+else{
+	image_xscale = + .5
+	image_yscale = + .5
+}
+
+
 
 if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {

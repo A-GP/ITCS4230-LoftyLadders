@@ -9,5 +9,12 @@ climbsp = 1.5;
 hp = 3;
 scr = 0;
 
+//slowing
 plslow = true
 spslow = .5
+
+//shrinking
+plsize = true
+basex = image_xscale
+basey = image_yscale
+
