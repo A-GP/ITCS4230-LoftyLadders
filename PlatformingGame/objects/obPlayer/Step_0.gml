@@ -8,12 +8,13 @@ player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
 //slowing spell
-if (plslow == true){
-	climbsp = spslow
-	alarm[0] = 2
+if (plslow = true){ 
+	climbsp = 1.5
+	alarm[0] = room_speed*2
 }
 else{
-	climbsp = 1.5
+	climbsp = spslow
+	//alarm[0] = room_speed*2
 }
 
 if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {

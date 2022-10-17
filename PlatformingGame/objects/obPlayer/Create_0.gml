@@ -9,5 +9,5 @@ climbsp = 1.5;
 hp = 3;
 scr = 0;
 
-plslow = false
+plslow = true
 spslow = .5

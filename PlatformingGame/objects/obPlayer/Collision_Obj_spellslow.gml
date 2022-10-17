@@ -1,5 +1,5 @@
 instance_destroy(other)
-plslow = true
+plslow = false
 
 
 

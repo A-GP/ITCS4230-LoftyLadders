@@ -56,6 +56,7 @@
     {"id":{"name":"obHealth","path":"objects/obHealth/obHealth.yy",},"order":13,},
     {"id":{"name":"spBorderB","path":"sprites/spBorderB/spBorderB.yy",},"order":9,},
     {"id":{"name":"ftMenu","path":"fonts/ftMenu/ftMenu.yy",},"order":1,},
+    {"id":{"name":"Obj_spellslowex","path":"objects/Obj_spellslowex/Obj_spellslowex.yy",},"order":21,},
     {"id":{"name":"spExplosion2","path":"sprites/spExplosion2/spExplosion2.yy",},"order":3,},
     {"id":{"name":"spBackground","path":"sprites/spBackground/spBackground.yy",},"order":0,},
     {"id":{"name":"spScore","path":"sprites/spScore/spScore.yy",},"order":2,},

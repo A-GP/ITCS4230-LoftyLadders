@@ -1,8 +1,4 @@
-plslow = true
-
-
-
-
+instance_destroy()
 
 
 
