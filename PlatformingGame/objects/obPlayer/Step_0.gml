@@ -7,6 +7,14 @@ player_up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
+//slowing spell
+if (plslow == true){
+	climbsp = spslow
+	alarm[0] = 2
+}
+else{
+	climbsp = 1.5
+}
 
 if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {
@@ -23,7 +31,7 @@ if (climbing) {
 	sprite_index = spPlayerClimbingIdle;
 	grav = 0;
 	vmove = 0;
-
+	
 	//Jumping
 	if (player_jump) {
 		climbing = false;
