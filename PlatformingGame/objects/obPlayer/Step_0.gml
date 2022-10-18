@@ -7,17 +7,35 @@ player_up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
+//Damage buffer
+if (hpcount > hp) {
+	hpcount = hp;
+	damageBuffer = true;
+	alarm[1] = room_speed * 2;
+
+}
+
+//Losing all health
+if (hp = 0) {
+	climbing = false;
+	player_left = 0;
+	player_right = 0;
+	player_up = 0;
+	player_down = 0;
+}
+
 //slowing spell
 if (plslow = true){ 
-	climbsp = 1.5
-	alarm[0] = room_speed*2
+	climbsp = 1.5;
+	grav = 0.4
+	alarm[0] = room_speed*2;
 }
 else{
 	climbsp = spslow
 	//alarm[0] = room_speed*2
 }
 
-if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {
+if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder) and hp != 0) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {
 		climbing = true;
 		sprite_index = spPlayerClimbing;

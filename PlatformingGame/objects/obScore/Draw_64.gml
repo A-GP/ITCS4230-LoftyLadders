@@ -3,5 +3,5 @@ if (instance_exists(obPlayer)) {
 	
 draw_set_font(ftDefault);
 draw_set_color(#ff0546);
-draw_text_transformed(460+16,242+40,obPlayer.scr,3,3,image_angle);
+draw_text_transformed(460,242,obPlayer.scr,3,3,image_angle);
 }

@@ -11,6 +11,9 @@ if(instance_place(x-1, y, obPlayer)){
 	obPlayer.x = obPlayer.x - 30
 }
 
+instance_destroy();
+instance_create_layer(x,y,"Instances",obSmoke);
+
 
 
 
