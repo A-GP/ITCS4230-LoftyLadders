@@ -1,4 +1,4 @@
-instance_create_layer(x, y, "Spells", Obj_spellslowex)
+instance_create_layer(x,y, "Spells", Obj_spellslowex)
 
 
 

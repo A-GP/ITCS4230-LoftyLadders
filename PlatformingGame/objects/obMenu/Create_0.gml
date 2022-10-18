@@ -1,13 +1,10 @@
-color1 = #0CE6F2;
-color2 = #0098DB;
-space = 60;
-item = 0;
+menu[0][0] = "START THE ASCENT";
+menu[0][1] = "ACCESIBILITY";
+menu[0][2] = "EXIT";
 
-menu[0] = "START THE ASCENT";
-menu[1] = "CREDITS";
-menu[2] = "EXIT";
+menu[1][0] = "INVINCIBILITY";
+menu[1][1] = "NO ENEMIES";
+menu[1][2] = "BACK";
 
-menuItems = array_length(menu);
-
-
-
+index = 0;
+sub_index = 0;

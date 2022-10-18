@@ -1,3 +1,3 @@
-if (obMenuCamera.menuSkip) {
-image_speed = 1;	
+if (obMenuCamera.menuSkip = true) {
+	image_speed = 1;	
 }
