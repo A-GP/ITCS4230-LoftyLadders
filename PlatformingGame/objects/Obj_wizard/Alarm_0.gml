@@ -1,4 +1,5 @@
 if (instance_exists(obPlayer)){
+	audio_play_sound(sndWizard,0,0);
 	sprite_index = spWizard;
 	image_speed = 1;
 	//path_start(Path_ghost1, 1, path_action_stop, false)

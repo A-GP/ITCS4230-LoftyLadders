@@ -18,6 +18,7 @@ if (hpcount > hp) {
 	hpcount = hp;
 	damageBuffer = true;
 	alarm[2] = room_speed * 2;
+	audio_play_sound(sndHurt,0,0);
 
 }
 
@@ -57,7 +58,7 @@ else{
 }
 
 
-
+//Climbing
 if (instance_place(x,y,obLadder) and instance_place(x,y-30,obLadder)) {
 	if (keyboard_check(vk_up) or keyboard_check(vk_down)) {
 		climbing = true;
@@ -78,6 +79,7 @@ if (climbing) {
 	if (player_jump) {
 		climbing = false;
 		vmove -= jumpHeight;
+		audio_play_sound(sndJump,0,0);
 	}
 
 	

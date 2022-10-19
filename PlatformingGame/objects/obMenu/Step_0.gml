@@ -4,6 +4,7 @@ var _enter = keyboard_check_pressed(vk_enter);
 
 var _dir = _down - _up;
 if (_dir != 0) {
+	audio_play_sound(sndMenu,0,0);
 	index += _dir;
 	if (index < 0) {
 		index = array_length(menu[sub_index]) - 1;
