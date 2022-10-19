@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "Shader1",
+  "name": "shHit",
   "type": 1,
   "parent": {
     "name": "Shaders",
