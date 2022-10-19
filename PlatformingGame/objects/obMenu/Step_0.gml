@@ -19,6 +19,7 @@ if (_enter) {
 			case 0:
 				//Start
 				room_goto_next();
+				audio_stop_sound(sndMenuSong);
 			break;
 			case 1:
 				//Accesibility
