@@ -9,7 +9,6 @@ climbsp = 1.5;
 hp = 3;
 hpcount = 3;
 scr = 0;
-<<<<<<< Updated upstream
 
 //slowing
 plslow = true
@@ -20,9 +19,7 @@ plsize = true
 basex = image_xscale
 basey = image_yscale
 
-=======
 plslow = true;
 spslow = .5;
 
 audio_play_sound(sndGameSong,10,true);
->>>>>>> Stashed changes

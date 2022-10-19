@@ -36,11 +36,23 @@ if (_enter) {
 		switch (index) {
 			case 0:
 				//Invincibility
-				
+				if (global.INVINCIBLE = false) {
+					global.INVINCIBLE = true;
+					menu[1][0] = "INVINCIBILITY [*]"
+				} else if (global.INVINCIBLE = true) {
+					global.INVINCIBLE = false;
+					menu[1][0] = "INVINCIBILITY [ ]"
+				}
 			break;
 			case 1:
 				//No enemies
-				
+				if (global.NO_ENEMIES = false) {
+					global.NO_ENEMIES = true;
+					menu[1][1] = "NO ENEMIES [*]"
+				} else if (global.NO_ENEMIES = true) {
+					global.NO_ENEMIES = false;
+					menu[1][1] = "NO ENEMIES [ ]"
+				}
 			break;
 			case 2:
 				//Back

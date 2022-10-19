@@ -7,6 +7,12 @@ player_up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
+
+//Invincibility
+if (global.INVINCIBLE) {
+hp = 3;	
+}
+
 //Damage buffer
 if (hpcount > hp) {
 	hpcount = hp;
@@ -25,23 +31,29 @@ if (hp = 0) {
 }
 
 //slowing spell
-if (plslow = true){ 
-	climbsp = 1.5
-	alarm[0] = room_speed*2
+if (plslow = true) { 
+	climbsp = 1.5;
+	alarm[0] = room_speed*5;
 }
 else{
-	climbsp = spslow
+	climbsp = spslow;
 }
 
 //shrinking spell
-if (plsize = true){ 
-	image_xscale = basex
-	image_yscale = basey
-	alarm[1] = room_speed*2
+var _shrinkjump = 3;
+var _basejump = 5
+
+if (plsize) { 
+	image_xscale = basex;
+	image_yscale = basey;
+	jumpHeight = _basejump;
+	alarm[1] = room_speed*5;
 }
 else{
-	image_xscale = + .5
-	image_yscale = + .5
+	image_xscale = + .5;
+	image_yscale = + .5;
+	jumpHeight = _shrinkjump;
+	
 }
 
 

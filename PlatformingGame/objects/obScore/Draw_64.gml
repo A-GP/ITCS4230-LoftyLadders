@@ -1,7 +1,7 @@
 if (instance_exists(obPlayer)) {
 	draw_sprite_stretched(spScore,0,336,224,184,84);
 
-var _x = 460;
+var _x = 476;
 var _y = 242;
 
 draw_set_font(ftDefault);
