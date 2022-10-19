@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_spellslowex",
   "spriteId": {
-    "name": "spExplosion3",
-    "path": "sprites/spExplosion3/spExplosion3.yy",
+    "name": "spExplosion2",
+    "path": "sprites/spExplosion2/spExplosion2.yy",
   },
   "solid": false,
   "visible": true,
