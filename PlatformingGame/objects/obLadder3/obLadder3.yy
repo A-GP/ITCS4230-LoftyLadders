@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obFragileLadder",
+  "name": "obLadder3",
   "spriteId": {
     "name": "spLadder3",
     "path": "sprites/spLadder3/spLadder3.yy",

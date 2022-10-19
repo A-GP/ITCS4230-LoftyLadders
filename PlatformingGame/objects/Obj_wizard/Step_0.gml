@@ -39,6 +39,3 @@ if (instance_exists(obPlayerFalling)){
 
 
 
-
-
-

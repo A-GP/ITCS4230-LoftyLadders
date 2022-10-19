@@ -1,0 +1,1 @@
+damageBuffer = false;

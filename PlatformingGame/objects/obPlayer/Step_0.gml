@@ -7,6 +7,23 @@ player_up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 player_down = keyboard_check(ord("S")) or keyboard_check(vk_down);
 player_jump = keyboard_check(vk_space);
 
+//Damage buffer
+if (hpcount > hp) {
+	hpcount = hp;
+	damageBuffer = true;
+	alarm[2] = room_speed * 2;
+
+}
+
+//Losing all health
+if (hp = 0) {
+	climbing = false;
+	player_left = 0;
+	player_right = 0;
+	player_up = 0;
+	player_down = 0;
+}
+
 //slowing spell
 if (plslow = true){ 
 	climbsp = 1.5
