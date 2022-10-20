@@ -20,10 +20,12 @@
     {"id":{"name":"spWall","path":"sprites/spWall/spWall.yy",},"order":1,},
     {"id":{"name":"spHealth2","path":"sprites/spHealth2/spHealth2.yy",},"order":4,},
     {"id":{"name":"Obj_spellslow","path":"objects/Obj_spellslow/Obj_spellslow.yy",},"order":20,},
+    {"id":{"name":"Spr_blocker","path":"sprites/Spr_blocker/Spr_blocker.yy",},"order":8,},
     {"id":{"name":"obWall","path":"objects/obWall/obWall.yy",},"order":1,},
     {"id":{"name":"spElecLadderActive","path":"sprites/spElecLadderActive/spElecLadderActive.yy",},"order":5,},
     {"id":{"name":"obMenuCamera","path":"objects/obMenuCamera/obMenuCamera.yy",},"order":25,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
+    {"id":{"name":"Obj_blocker","path":"objects/Obj_blocker/Obj_blocker.yy",},"order":30,},
     {"id":{"name":"spPlayerJumpL","path":"sprites/spPlayerJumpL/spPlayerJumpL.yy",},"order":4,},
     {"id":{"name":"obLogo","path":"objects/obLogo/obLogo.yy",},"order":5,},
     {"id":{"name":"spSpikesL","path":"sprites/spSpikesL/spSpikesL.yy",},"order":3,},
@@ -163,10 +165,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.0.34",
   },
 }
