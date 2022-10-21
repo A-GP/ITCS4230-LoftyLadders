@@ -9,15 +9,15 @@ player_jump = keyboard_check(vk_space);
 
 
 //Invincibility
-if (global.INVINCIBLE) {
+if (global.INVINCIBLE = true) {
 hp = 3;	
 }
 
 //Damage buffer
 if (hpcount > hp) {
-	hpcount = hp;
 	damageBuffer = true;
 	alarm[2] = room_speed * 2;
+	hpcount = hp;
 	audio_play_sound(sndHurt,0,0);
 
 }

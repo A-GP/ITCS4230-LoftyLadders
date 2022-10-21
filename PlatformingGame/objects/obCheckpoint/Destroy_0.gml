@@ -1,0 +1,1 @@
+instance_create_layer(room_width/2,obPlayer.y-64,"KittySaved",obCheckpointText);

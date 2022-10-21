@@ -23,3 +23,12 @@ plslow = true;
 spslow = .5;
 
 audio_play_sound(sndGameSong,10,true);
+
+if (global.CHECKPOINT = true) {
+	x = global.CPN.x;
+	y = global.CPN.y;
+}
+
+if (global.POINTS > 0) {
+	scr = global.POINTS;	
+}

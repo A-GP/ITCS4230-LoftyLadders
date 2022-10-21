@@ -20,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1C8A833F","properties":[],"isDnd":false,"objectId":{"name":"obLogo","path":"objects/obLogo/obLogo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1AFDEF75","properties":[],"isDnd":false,"objectId":{"name":"obMenuCamera","path":"objects/obMenuCamera/obMenuCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69031560","properties":[],"isDnd":false,"objectId":{"name":"obController","path":"objects/obController/obController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D520884","properties":[],"isDnd":false,"objectId":{"name":"obCheckpoint","path":"objects/obCheckpoint/obCheckpoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-544.0,"y":704.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_256C1E44","spriteId":{"name":"spMenuKnight","path":"sprites/spMenuKnight/spMenuKnight.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":928.0,},
@@ -42,6 +43,7 @@
     {"name":"inst_1C8A833F","path":"rooms/rmMenu/rmMenu.yy",},
     {"name":"inst_1AFDEF75","path":"rooms/rmMenu/rmMenu.yy",},
     {"name":"inst_69031560","path":"rooms/rmMenu/rmMenu.yy",},
+    {"name":"inst_6D520884","path":"rooms/rmMenu/rmMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
