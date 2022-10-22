@@ -148,3 +148,5 @@ if (climbing) {
 		if (vmove >= 0) image_index = 3;
 	}
 }
+
+score = scr;

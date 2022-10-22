@@ -19,7 +19,7 @@ if (_enter) {
 		switch (index) {
 			case 0:
 				//Start
-				room_goto_next();
+				room_goto(rmTutorial);
 				audio_stop_sound(sndMenuSong);
 			break;
 			case 1:

@@ -1,5 +1,5 @@
 if (instance_exists(obPlayer)){
-	y = clamp(y,+room_height,obPlayer.y);
+	y = clamp(y,+room_height,obCameraController.y);
 }
 
 //bug where wizard would appear during the falling animation

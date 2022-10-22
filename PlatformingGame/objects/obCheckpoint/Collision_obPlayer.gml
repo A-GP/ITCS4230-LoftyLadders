@@ -6,6 +6,9 @@ if (instance_exists(obPlayer)) {
 	audio_play_sound(sndCheckpoint,0,0);
 	
 	switch (cp_number) {
+		case 0:
+			global.CPN = 0;
+		break;
 		case 1:
 			global.CPN = CP1;
 		break;
@@ -23,6 +26,9 @@ if (instance_exists(obPlayer)) {
 		break;
 		case 6:
 			global.CPN = CP6;
+		break;
+		default:
+			global.CPN = 0;
 		break;
 	}
 }

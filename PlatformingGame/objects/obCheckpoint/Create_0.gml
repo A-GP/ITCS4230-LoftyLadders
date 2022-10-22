@@ -1,3 +1,3 @@
 global.POINTS = 0;
 global.CHECKPOINT = false;
-global.CPN = CP1;
+global.CPN = 0;
