@@ -1,6 +1,4 @@
-============================================================================
 Lofty Ladders - ITCS-4230 Project 1
-============================================================================
 
 Date: 10/23/2022
 
@@ -17,13 +15,12 @@ Credits:
 -	Programming by Sean Board and Andrew Pierce
 -	Source control by Max Waddell
 -	Game design by Andrew Pierce
--	*Music and sound effects by Andrew Pierce (2022)
--	**Art and sprites by Andrew Pierce (2022)
+-	Music and sound effects by Andrew Pierce (2022) *
+-	Art and sprites by Andrew Pierce (2022) **
 
 *Music and sfx created in FL Studio 20
 **Art and sprites created in Aseprite v1.3
 
-============================================================================
 What is included:
 -	Both .yyp and .exe files for the game
 -	All game assets
