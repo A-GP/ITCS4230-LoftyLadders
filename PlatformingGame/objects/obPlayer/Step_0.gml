@@ -41,19 +41,23 @@ else{
 }
 
 //shrinking spell
-var _shrinkjump = 3;
-var _basejump = 5
+var _shrinkjump = 6;
+var _basejump = 4.75;
+var _basesp = 4;
+var _shrinksp = 2;
 
 if (plsize) { 
 	image_xscale = basex;
 	image_yscale = basey;
 	jumpHeight = _basejump;
+	playersp = _basesp;
 	alarm[1] = room_speed*5;
 }
 else{
 	image_xscale = + .5;
 	image_yscale = + .5;
 	jumpHeight = _shrinkjump;
+	playersp = _shrinksp;
 	
 }
 
@@ -100,7 +104,7 @@ if (climbing) {
 } else {
 
 	//Movment
-	grav = 0.3;
+	grav = 0.25;
 	var moveDirection = player_right - player_left
 	hmove = moveDirection * playersp;
 	vmove = max(vmove+grav,-10);

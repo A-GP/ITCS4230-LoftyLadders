@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obPlayer",
   "spriteId": {
-    "name": "spPlayerIdle",
-    "path": "sprites/spPlayerIdle/spPlayerIdle.yy",
+    "name": "spPlayerClimbing",
+    "path": "sprites/spPlayerClimbing/spPlayerClimbing.yy",
   },
   "solid": false,
   "visible": true,

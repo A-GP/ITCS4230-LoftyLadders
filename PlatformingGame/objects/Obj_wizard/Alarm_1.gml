@@ -1,4 +1,4 @@
-spellnum = irandom(2)
+spellnum = irandom(2);
 sprite_index = spWizardCasting
 
 //slowing
