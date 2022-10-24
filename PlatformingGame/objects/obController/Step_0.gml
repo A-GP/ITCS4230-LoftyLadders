@@ -6,3 +6,8 @@ if (global.NO_ENEMIES) {
 		instance_destroy(Obj_ghostvert);
 	}
 }
+
+if (global.CHECKPOINT) {
+	global.CP = global.CHECKPOINT;	
+}
+

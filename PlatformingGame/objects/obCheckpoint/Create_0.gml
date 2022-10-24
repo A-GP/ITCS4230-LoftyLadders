@@ -1,3 +1,6 @@
 global.POINTS = 0;
-global.CHECKPOINT = false;
-global.CPN = 0;
+if (global.CP) {
+	global.CHECKPOINT = true;
+} else {
+	global.CHECKPOINT = false;	
+}

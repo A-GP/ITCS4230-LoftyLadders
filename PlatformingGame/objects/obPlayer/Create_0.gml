@@ -24,7 +24,7 @@ spslow = .5;
 
 audio_play_sound(sndGameSong,10,true);
 
-if (global.CHECKPOINT = true) {
+if (global.CHECKPOINT) {
 	x = global.CPN.x;
 	y = global.CPN.y;
 }

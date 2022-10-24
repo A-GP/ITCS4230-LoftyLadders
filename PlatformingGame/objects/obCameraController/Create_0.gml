@@ -1,4 +1,4 @@
-if (global.CHECKPOINT) {
-x = obCheckpoint.x;
-y = obCheckpoint.y;
+if (global.CHECKPOINT = true) {
+x = global.CPN.x;
+y = global.CPN.y;
 }
